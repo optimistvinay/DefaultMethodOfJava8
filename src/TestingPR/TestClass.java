@@ -11,6 +11,9 @@ public class TestClass {
 		int yearResponse = (currentYear % 10 > RequstedYearDigit) ? ++currentYearDigit : currentYearDigit;
 		String s = String.format("%d%c", yearResponse, year);
 		System.out.println("S : '" + s + "'");
+
+
+		
 	}
 
 }
